@@ -1,17 +1,11 @@
 import { observer } from "mobx-react-lite";
-import useStore from "./hooks/useStore";
+import { Dashboard } from "./components/Dashboard";
 
 function App() {
-  const { users, boards } = useStore();
-
-  console.log(users.toJSON());
-
-  console.log(boards.toJSON());
-
   return (
-    <div>
-      <p>Start</p>
-    </div>
+    <main>
+      <Dashboard />
+    </main>
   );
 }
 
