@@ -1,4 +1,5 @@
 import { CardContent, Typography } from "@mui/material";
+import User from "../common/User";
 
 export default function Task({ task }) {
   return (
@@ -9,6 +10,7 @@ export default function Task({ task }) {
       <Typography color="textSecondary" gutterBottom>
         {task?.description}
       </Typography>
+      <User user={task.assignee} />
     </CardContent>
   );
 }

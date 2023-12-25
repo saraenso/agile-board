@@ -159,16 +159,16 @@
     {
       "tasks": [
         {
-          "id": "2",
-          "title": "Task 2",
-          "description": "Task some task description 3",
-          "assignee": "1"
+          "id": "5f905127-06c2-439a-b533-5f3b8495d9ad",
+          "title": "User",
+          "description": "asd",
+          "assignee": "9"
         },
         {
-          "id": "22",
-          "title": "Task 2",
-          "description": "Task some task description 3",
-          "assignee": "1"
+          "id": "01b57c17-a002-466a-af1f-a43499b11133",
+          "title": "Title",
+          "description": "Of",
+          "assignee": "5"
         }
       ],
       "id": "IN_PROGRESS"
@@ -176,10 +176,22 @@
     {
       "tasks": [
         {
+          "id": "2",
+          "title": "Task 2",
+          "description": "Task some task description 3",
+          "assignee": "1"
+        },
+        {
           "id": "11",
           "title": "Task 1",
           "description": "Task 1 description",
           "assignee": "3"
+        },
+        {
+          "id": "22",
+          "title": "Task 2",
+          "description": "Task some task description 3",
+          "assignee": "1"
         }
       ],
       "id": "DONE"
@@ -193,10 +205,10 @@
           "assignee": "1"
         },
         {
-          "id": "5f905127-06c2-439a-b533-5f3b8495d9ad",
-          "title": "User",
-          "description": "asd",
-          "assignee": "9"
+          "id": "788ead85-3f26-4b65-a010-8ef12597f8ca",
+          "title": "NewTask",
+          "description": "ToDO",
+          "assignee": "2"
         }
       ],
       "id": "CLOSED"
@@ -209,6 +221,12 @@
           "id": "3",
           "title": "Task 3",
           "description": "Task some task description 444"
+        },
+        {
+          "id": "79503bf0-e26b-4ce5-9bb9-72ea22271556",
+          "title": "Title",
+          "description": "Of",
+          "assignee": "1"
         }
       ],
       "id": "BACKLOG"
@@ -234,6 +252,12 @@
           "id": "4",
           "title": "Task 4",
           "description": "5555"
+        },
+        {
+          "id": "bd831217-6ca8-49ec-afd9-a6f563edb085",
+          "title": "Title",
+          "description": "ToDO",
+          "assignee": "4"
         }
       ],
       "id": "IN_PROGRESS"

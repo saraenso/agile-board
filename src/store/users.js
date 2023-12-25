@@ -1,7 +1,7 @@
 import { types, flow } from "mobx-state-tree";
 import apiCall from "../API";
 
-const User = types.model("User", {
+export const User = types.model("User", {
   id: types.identifier,
   createdAt: types.string,
   name: types.string,
@@ -14,6 +14,16 @@ const UsersStore = types
   .model("UsersStore", {
     users: types.maybe(types.array(User)),
     me: types.maybe(ActiveUser),
+  })
+  .views((self) => {
+    return {
+      get list() {
+        if (self.users && self.users.length > 0) {
+          return self.users?.map(({ id, name }) => ({ id, name }));
+        }
+        return [];
+      },
+    };
   })
   .actions((self) => {
     return {
