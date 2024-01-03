@@ -8,7 +8,7 @@
     "test": "react-scripts test",
     "eject": "react-scripts eject",
     "dev": "vite",
-    "build": "vite build",
+    "build": "parcel build --no-source-maps --dist-dir docs",
     "lint": "eslint . --ext js,jsx --report-unused-disable-directives --max-warnings 0",
     "preview": "vite preview",
     "server": "json-server database/index.json --port 3001 --routes database/routes.json"
